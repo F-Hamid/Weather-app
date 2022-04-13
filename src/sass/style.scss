@@ -1,0 +1,110 @@
+.container {
+  @include center;
+  @include shadow;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  height: 95vh;
+  min-width: 96vw;
+  background-color: #27cffe;
+  // background-image: linear-gradient(
+  //   to right bottom,
+  //   #218cff,
+  //   #0799fe,
+  //   #1ba6fb,
+  //   #39b1f6,
+  //   #56bbf1
+  // );
+  border-radius: 1rem;
+  font-family: $text-terciary;
+  position: relative;
+}
+
+.main {
+  @include center;
+  justify-content: space-around;
+  align-items: center;
+
+  min-height: 65%;
+  width: 80%;
+  margin: 8rem auto;
+  background-color: $font-secondary;
+   // background-image: linear-gradient(
+  //   to right bottom,
+  //   #4d77ff,
+  //   #3882ff,
+  //   #218cff,
+  //   #0895ff,
+  //   #019eff
+  // );
+  @include shadow;
+  @include round;
+}
+
+.title {
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
+  text-transform: uppercase;
+  color: $font-praimary;
+  text-shadow: 0.1rem 0.1rem 1rem #ccc;
+}
+
+.city {
+  background-color: $color-secondary;
+  height: 40%;
+  width: 20%;
+  margin: 4rem;
+  color: $font-praimary;
+  @include center;
+  flex-direction: column;
+  @include round;
+  @include shadow;
+}
+
+.widget-img {
+  max-width: 50rem;
+  min-width: 40rem;
+  margin-top: 3rem;
+}
+
+.description {
+  color: $font-praimary;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  text-shadow: 0.1rem 0.1rem 1rem #eee;
+  font-family: $text-secondary;
+}
+.forecast {
+  height: 40%;
+  width: 60%;
+  margin-bottom: 1rem;
+  @include center;
+  flex-direction: row;
+}
+
+.spinner-grow {
+  width: 10rem;
+  height: 10rem;
+  margin: 5rem;
+}
+
+.loading {
+  color: $color-secondary;
+  margin-top: 15rem;
+}
+
+.time {
+  font-size: 4.2rem;
+}
+
+.details {
+  @include center;
+  flex-direction: column;
+  margin: -2rem 3rem 3rem 0;
+  color: $font-secondary;
+  font-size: 2rem;
+  font-family: $text-secondary;
+}

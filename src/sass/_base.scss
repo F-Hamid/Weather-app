@@ -7,8 +7,29 @@ html {
   font-size: 65%; // 1rem=10px
 }
 
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 35%;
+  }
+}
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 30%;
+  }
+}
 body {
   box-sizing: border-box;
   background-color: #fffd;
- 
 }

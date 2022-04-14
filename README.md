@@ -13,6 +13,4 @@
 - [Get Data](https://api.openweathermap.org)
 - For unauthenticated requests, the rate limited requests per hour. Unauthenticated requests are associated with the originating IP address, and not the user making requests.
 
-
-
-[https://weatherspa.netlify.app](https://weatherspa.netlify.app)
+[https://spa-weather.netlify.app](https://spa-weather.netlify.app)

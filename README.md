@@ -1,4 +1,4 @@
-## React Project : F-Hamid
+## Weather single page App : F-Hamid
 
 > `Technologies used for this projetc :`
 
